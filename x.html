@@ -19,10 +19,10 @@
 				for(var i=0;i<data.length;i++){
 					var d1=new Date(data[i].date);
 					if(d-d1>473040000000){
-						string+="for"+data[i].name+",bonus=10000";
+						string+="for "+data[i].name+",bonus=10000 ";
 					}
 					else{
-						string+="for"+data[i].name+",bonus=5000";
+						string+="for "+data[i].name+",bonus=5000 ";
 					}
 				}
 				container.insertAdjacentHTML('beforeend',string);
